@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <!-- Skyrim Mask Base -->
+  <ThingDef ParentName="ApparelBase" Name="SkyrimMaskBase" Abstract="True">
+    <techLevel>Neolithic</techLevel>
+    <thingCategories>
+      <li>Headgear</li>
+    </thingCategories>
+    <tradeTags>
+      <li>ExoticMisc</li>
+    </tradeTags>
+    <thingSetMakerTags><li>RewardStandardCore</li></thingSetMakerTags>
+    <tradeability>Buyable</tradeability>
+    <burnableByRecipe>true</burnableByRecipe>
+    <smeltable>false</smeltable>
+  </ThingDef>
+  <!-- Dragon Priest Mask Base -->
+  <ThingDef ParentName="SkyrimMaskBase" Name="DragonPriestMask" Abstract="True">
+    <graphicData>
+      <texPath>Things/Equipment/Apparel/DragonPriestMask</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <WorkToMake>800</WorkToMake>
+      <MarketValue>500</MarketValue>
+      <MaxHitPoints>80</MaxHitPoints>
+      <Mass>0.3</Mass>
+      <ArmorRating_Sharp>0.09</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.09</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.27</ArmorRating_Heat>
+      <Insulation_Cold>2</Insulation_Cold>
+      <Insulation_Heat>2</Insulation_Heat>
+      <EquipDelay>1.5</EquipDelay>
+      <Beauty>1.4</Beauty>
+    </statBases>
+    <apparel>
+      <bodyPartGroups>
+        <li>FullHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Equipment/Apparel/DragonPriestMask</wornGraphicPath>
+      <renderSkipFlags>
+        <li>None</li>
+      </renderSkipFlags>
+      <drawData>
+        <dataNorth>
+          <layer>-3</layer>
+        </dataNorth>
+      </drawData>
+      <ideoDesireAllowedFactionCategoryTags><li>Tribal</li></ideoDesireAllowedFactionCategoryTags>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+        <li>IndustrialAdvanced</li>
+        <li>Western</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+        <li>Worker</li>
+      </defaultOutfitTags>
+    </apparel>
+  </ThingDef>
+  <!-- Skyrim Dragon Priest Hevnoraak Mask -->
+  <ThingDef ParentName="DragonPriestMask">
+    <defName>Apparel_SkyrimMask_Hevnoraak</defName>
+    <label>DragonPriest Hevnoraak Mask</label>
+    <description>Mask of the Dragon Priest Hevnoraak. His full name translates to brutality.\nHe had a way of enthralling people and built up a loyal army of followers. Good men fell under his spell and were forever twisted.\n\nThis mask will increase the social impact of the pawn.</description>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <equippedStatOffsets>
+      <SocialImpact>0.6</SocialImpact>
+    </equippedStatOffsets>
+  </ThingDef>
+  <!-- Skyrim Dragon Priest Volsung Mask -->
+  <ThingDef ParentName="DragonPriestMask">
+    <defName>Apparel_SkyrimMask_Volsung</defName>
+    <label>DragonPriest Volsung Mask</label>
+    <description>Mask of the Dragon Priest Volsung. His name references the Icelandic epic called the 'Volsung Saga'.\nThe saga recounts the mythic deeds of the dragon slayer Sigurd the Volsung gaining magical powers by slaying a dragon.\n\nThis mask will increase the carry weight of the pawn and helps to get better prices while trading.</description>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <equippedStatOffsets>
+      <NegotiationAbility>0.7</NegotiationAbility>
+      <TradePriceImprovement>0.4</TradePriceImprovement>
+      <CarryingCapacity>35</CarryingCapacity>
+    </equippedStatOffsets>
+  </ThingDef>
+  <!-- Skyrim Dragon Priest Mask -->
+  <ThingDef ParentName="DragonPriestMask">
+    <defName>Apparel_SkyrimMask</defName>
+    <label>DragonPriest Mask</label>
+    <description>Legend holds that the highest ranking Dragon Priests were granted magical masks – strange artifacts that defy the laws of time, and grant their wearers powerful enchantments.\n\nThis mask reduces the pain threshold of the pawn.</description>
+    <stuffCategories>
+      <li>Woody</li>
+    </stuffCategories>
+    <equippedStatOffsets>
+      <PainShockThreshold>0.30</PainShockThreshold>
+    </equippedStatOffsets>
+  </ThingDef>
+  <!-- Skyrim Dragon Priest Nahkriin Mask -->
+  <ThingDef ParentName="DragonPriestMask">
+    <defName>Apparel_SkyrimMask_Nahkriin</defName>
+    <label>DragonPriest Nahkriin Mask</label>
+    <description>Mask of the Dragon Priest Nahkriin, His full name translates to vengeance.\n\nThis mask grants a boost to meditation focus gain.</description>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <equippedStatOffsets>
+      <MeditationFocusGain>0.5</MeditationFocusGain>
+    </equippedStatOffsets>
+  </ThingDef>
+  <!-- Skyrim Dragon Priest Krosis Mask -->
+  <ThingDef ParentName="DragonPriestMask">
+    <defName>Apparel_SkyrimMask_Krosis</defName>
+    <label>DragonPriest Krosis Mask</label>
+    <description>Mask of the Dragon Priest Krosis, His full name translates to Sorrow.\n\nThis mask grants a boost to shooting accuracy.</description>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <equippedStatOffsets>
+      <ShootingAccuracyPawn>2</ShootingAccuracyPawn>
+    </equippedStatOffsets>
+  </ThingDef>
+  <!-- Skyrim Dragon Priest Otar Mask -->
+  <ThingDef ParentName="DragonPriestMask">
+    <defName>Apparel_SkyrimMask_Otar</defName>
+    <label>DragonPriest Otar Mask</label>
+    <description>Mask of the Dragon Priest Otar, once a just ruler and a dedicated priest, descended into madness when dark, sinister whispers infiltrated his mind. His actions led to the downfall of Ragnvald.\n\nThis mask greatly increases the resistance to cold and heat.</description>
+    <statBases>
+      <WorkToMake>800</WorkToMake>
+      <MarketValue>500</MarketValue>
+      <MaxHitPoints>80</MaxHitPoints>
+      <Mass>0.3</Mass>
+      <ArmorRating_Sharp>0.09</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.09</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.87</ArmorRating_Heat>
+      <Insulation_Cold>5</Insulation_Cold>
+      <Insulation_Heat>5</Insulation_Heat>
+      <EquipDelay>1.5</EquipDelay>
+      <Beauty>1.9</Beauty>
+    </statBases>
+    <stuffCategories>
+      <li>Stony</li>
+    </stuffCategories>
+  </ThingDef>
+  <!-- Skyrim Dragon Priest Rahgot Mask -->
+  <ThingDef ParentName="DragonPriestMask">
+    <defName>Apparel_SkyrimMask_Rahgot</defName>
+    <label>DragonPriest Rahgot Mask</label>
+    <description>Mask of the Dragon Priest Rahgot, His full name translates to Anger.\n\nThis mask greatly increases armor and insulation.</description>
+    <statBases>
+      <WorkToMake>800</WorkToMake>
+      <MarketValue>500</MarketValue>
+      <MaxHitPoints>130</MaxHitPoints>
+      <Mass>0.4</Mass>
+      <ArmorRating_Sharp>0.29</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.29</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.87</ArmorRating_Heat>
+      <Insulation_Cold>5</Insulation_Cold>
+      <Insulation_Heat>5</Insulation_Heat>
+      <EquipDelay>1.5</EquipDelay>
+      <Beauty>1.9</Beauty>
+      <StuffEffectMultiplierArmor>0.4</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.25</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.50</StuffEffectMultiplierInsulation_Heat>
+    </statBases>
+    <stuffCategories>
+      <li>Stony</li>
+    </stuffCategories>
+  </ThingDef>
+  <!-- Skyrim Dragon Priest Morokei Mask -->
+  <ThingDef ParentName="DragonPriestMask">
+    <defName>Apparel_SkyrimMask_Morokei</defName>
+    <label>DragonPriest Morokei Mask</label>
+    <description>Mask of the Dragon Priest Morokei, His full name translates to Glorious.\n\nThis mask grants a boost to focus gain, psychic entropy and sensitivity.</description>
+    <statBases>
+      <WorkToMake>800</WorkToMake>
+      <MarketValue>500</MarketValue>
+      <MaxHitPoints>80</MaxHitPoints>
+      <Mass>0.3</Mass>
+      <ArmorRating_Sharp>0.09</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.09</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.87</ArmorRating_Heat>
+      <Insulation_Cold>5</Insulation_Cold>
+      <Insulation_Heat>5</Insulation_Heat>
+      <EquipDelay>1.5</EquipDelay>
+      <Beauty>3.1</Beauty>
+    </statBases>
+    <equippedStatOffsets>
+      <PsychicSensitivityOffset>0.25</PsychicSensitivityOffset>
+      <PsychicEntropyRecoveryRate>0.36</PsychicEntropyRecoveryRate>
+      <MeditationFocusGain>0.55</MeditationFocusGain>
+    </equippedStatOffsets>
+    <stuffCategories>
+      <li>Stony</li>
+    </stuffCategories>
+  </ThingDef>
+  <!-- Skyrim Mask Miraak -->
+  <ThingDef ParentName="SkyrimMaskBase">
+    <defName>Apparel_SkyrimMask_Miraak</defName>
+    <label>Skyrim Mask of Miraak</label>
+    <description>Mask of the first Dragonborn Miraak. Greatly improves psychic capabilities.</description>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <graphicData>
+      <texPath>Things/Equipment/Apparel/MiraakMask</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <WorkToMake>800</WorkToMake>
+      <MarketValue>500</MarketValue>
+      <MaxHitPoints>80</MaxHitPoints>
+      <Mass>0.4</Mass>
+      <ArmorRating_Sharp>0.09</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.09</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.27</ArmorRating_Heat>
+      <Insulation_Cold>2</Insulation_Cold>
+      <Insulation_Heat>2</Insulation_Heat>
+      <EquipDelay>1.5</EquipDelay>
+      <Beauty>2.2</Beauty>
+    </statBases>
+    <equippedStatOffsets>
+      <PsychicSensitivityOffset>0.12</PsychicSensitivityOffset>
+      <PsychicEntropyRecoveryRate>0.66</PsychicEntropyRecoveryRate>
+      <MeditationFocusGain>0.7</MeditationFocusGain>
+    </equippedStatOffsets>
+    <apparel>
+      <bodyPartGroups>
+        <li>FullHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Equipment/Apparel/MiraakMask</wornGraphicPath>
+      <renderSkipFlags>
+        <li>None</li>
+      </renderSkipFlags>
+      <drawData>
+        <dataNorth>
+          <layer>-3</layer>
+        </dataNorth>
+      </drawData>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+        <li>IndustrialAdvanced</li>
+        <li>Western</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+  </ThingDef>
+  <!-- Skyrim Mask Konahrik -->
+  <ThingDef ParentName="SkyrimMaskBase">
+    <defName>Apparel_SkyrimMask_Konahrik</defName>
+    <label>Skyrim Mask of Konahrik</label>
+    <description>Mask of the Dragon Priest Konahrik, His full name translates to Warlord.\n\nThis sturdy mask grants a lot of protection and resistances.</description>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <graphicData>
+      <texPath>Things/Equipment/Apparel/KonahrikMask</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <WorkToMake>800</WorkToMake>
+      <MarketValue>750</MarketValue>
+      <MaxHitPoints>120</MaxHitPoints>
+      <Mass>0.4</Mass>
+      <ArmorRating_Sharp>0.25</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.25</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.27</ArmorRating_Heat>
+      <Insulation_Cold>3</Insulation_Cold>
+      <Insulation_Heat>5</Insulation_Heat>
+      <EquipDelay>1.5</EquipDelay>
+      <Beauty>3.5</Beauty>
+    </statBases>
+    <apparel>
+      <bodyPartGroups>
+        <li>FullHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Equipment/Apparel/KonahrikMask</wornGraphicPath>
+      <renderSkipFlags>
+        <li>None</li>
+      </renderSkipFlags>
+      <drawData>
+        <dataNorth>
+          <layer>-3</layer>
+        </dataNorth>
+      </drawData>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+        <li>IndustrialAdvanced</li>
+        <li>Western</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+  </ThingDef>
+</Defs>
