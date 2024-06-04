@@ -301,4 +301,58 @@
       </defaultOutfitTags>
     </apparel>
   </ThingDef>
+  <!-- Skyrim Mask Zahkriisos -->
+  <ThingDef ParentName="SkyrimMaskBase">
+    <defName>Apparel_SkyrimMask_Zahkriisos</defName>
+    <label>Skyrim Mask of Zahkriisos</label>
+    <description>Mask of the Dragon Priest Zahkriisos, His full name translates to Sword-Blood or Bloody Sword.\n\nThis mask increases pawn movement speed and pain threshold.</description>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <graphicData>
+      <texPath>Things/Equipment/Apparel/ZahkriisosMask</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <WorkToMake>800</WorkToMake>
+      <MarketValue>550</MarketValue>
+      <MaxHitPoints>220</MaxHitPoints>
+      <Mass>0.5</Mass>
+      <ArmorRating_Sharp>0.35</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.45</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.27</ArmorRating_Heat>
+      <Insulation_Cold>2</Insulation_Cold>
+      <Insulation_Heat>3</Insulation_Heat>
+      <EquipDelay>1.5</EquipDelay>
+      <Beauty>4</Beauty>
+    </statBases>
+    <equippedStatOffsets>
+      <PainShockThreshold>0.35</PainShockThreshold>
+      <MoveSpeed>1.4</MoveSpeed>
+    </equippedStatOffsets>
+    <apparel>
+      <bodyPartGroups>
+        <li>FullHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Equipment/Apparel/ZahkriisosMask</wornGraphicPath>
+      <renderSkipFlags>
+        <li>None</li>
+      </renderSkipFlags>
+      <drawData>
+        <dataNorth>
+          <layer>-3</layer>
+        </dataNorth>
+      </drawData>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+        <li>IndustrialAdvanced</li>
+        <li>Western</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+  </ThingDef>
 </Defs>
