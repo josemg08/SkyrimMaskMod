@@ -1,31 +1,55 @@
-# SkyrimMaskMod
+# Skyrim Dragon Priest Masks - RimWorld Mod
 
-![Skyrim Masks Banner](https://github.com/josemg08/SkyrimMaskMod/blob/main/About/Preview.png)
+![Version](https://img.shields.io/badge/RimWorld-1.5%20%7C%201.6-brightgreen.svg)
+![License](https://img.shields.io/badge/License-MIT-blue.svg)
+[![Steam Workshop](https://img.shields.io/badge/Steam-Workshop-blue.svg)](https://steamcommunity.com/sharedfiles/filedetails/?id=3260793702)
 
-A RimWorld mod that brings the legendary Dragon Priest masks from The Elder Scrolls V: Skyrim to your colony.
+Bring the legendary Dragon Priest masks from The Elder Scrolls V: Skyrim into your RimWorld colony. Experience the power and mystique of these ancient artifacts as your colonists don these powerful relics.
 
-## Features
+![Preview](About/Preview.png)
 
-- **8 Unique Dragon Priest Masks** - Each mask provides different beneficial effects
+## ✨ Features
+
+### 🎭 Dragon Priest Masks
+- 8 unique and powerful masks, each with distinct effects:
+  - **Konahrik** - The Warlord's mask
+  - **Miraak** - The First Dragonborn's mask
+  - **Zahkriisos** - The Sword-Blood mask
+  - *And more...*
+
+### 🎮 Gameplay Integration
 - **Multiple Acquisition Methods**:
-    - Purchase from exotic goods traders
-    - Earn as quest rewards
-    - Loot from defeated enemies wearing them
-- **Balanced Gameplay** - Masks cannot be crafted, maintaining their legendary status
+  - Trade with exotic goods traders
+  - Complete special quests
+  - Defeat enemies wearing these legendary artifacts
+- **Balanced Implementation**:
+  - Masks cannot be crafted to preserve their legendary status
+  - Each mask provides unique beneficial effects without being overpowered
+  - Carefully balanced for RimWorld's gameplay
 
-## Installation
+## 📥 Installation
 
-1. Subscribe to the mod on Steam Workshop or download from GitHub
-2. Enable the mod in your RimWorld mod list
-3. Start a new game or add to existing saves
+1. Subscribe to the mod on the [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3260793702)
+2. Enable the mod in the game's mod menu
+3. Start a new game or load an existing save
 
-## Compatibility
+## 🛠️ Compatibility
 
-- **RimWorld Version**: 1.5, 1.6
-- **Save Game Compatible**: Yes
+- Works with RimWorld 1.5 and 1.6
+- Safe to add to existing saves
+- Compatible with most other mods
 
-## About
+## 🤝 Contributing
 
-These powerful artifacts from Skyrim's Dragon Priests offer colonists ancient magical benefits. Each mask carries the essence of its original wearer, providing unique advantages to those brave enough to claim them.
+Found a bug or want to suggest a feature? Please visit the [Steam Workshop page](https://steamcommunity.com/sharedfiles/filedetails/?id=3260793702) and leave a comment.
+
+## 📜 License
+
+This mod is released under the MIT License. See the LICENSE file for more details.
+
+## 💕 Credits
+
+- Original Dragon Priest Masks concept by Bethesda Game Studios (The Elder Scrolls V: Skyrim)
+- Mask designs by [@Ulysses_Odysseus](https://steamcommunity.com/profiles/76561198828942362)
 
 ---
